@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  font-family: 'Source Sans Pro';
+  letter-spacing: 3px;
+  background-color: rgb(4, 9, 11);
+  position: absolute;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+  background-color: lightblue;
+}
+
+.btn-1{/*help*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 1375px;
+  top: -17px;
+}
+
+.btn-1:hover{/*help*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+.btn-2{/*Home*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 775px;
+  top: -17px;
+}
+
+.btn-2:hover{/*Home*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+.btn-3{/*Sign up*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 1225px;
+  top: -17px;
+}
+
+.btn-3:hover{/*Sign up*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+.btn-4{/*about*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 925px;
+  top: -17px;
+}
+
+.btn-4:hover{/*about*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+.btn-5{/*Services*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 1075px;
+  top: -17px;
+}
+
+.btn-5:hover{/*Services*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+h1{
+ color: white;
+ left: 15px;
+ top: -25px;
+ font-family: 'Nunito';
+ font-size: 2.5rem;
+}
+
+h1:hover{
+  cursor: pointer;
+}
+
+.Iphone{
+  width: 1535px;
+  height: auto;
+  margin: none;
+  left: -20;
+  top: 80px;
+}
+
+body {
+  margin-left: 0;
+}
+
+/*p{
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  font-size:1.75rem;
+  color: aliceblue;
+}
+
+p:hover{
+  cursor:default;
+}
+
+https://www.w3schools.com/cssref/index.php*/

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  font-family: 'Source Sans Pro';
+  letter-spacing: 3px;
+  background-color: rgb(4, 9, 11);
+  position: absolute;
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+  background-color: lightblue;
+}
+
+.btn-1{/*Home*/
+  width: 125px;
+  height: 40px;
+  color: white;
+  box-shadow: none;
+  border: 2px solid rgb(151, 237, 237);
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: -30px;
+}
+
+.btn-1:hover{/*Home*/
+  border: 2px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+input{
+  border-color: rgb(151, 237, 237);
+  border-radius: 4px;
+  border-style: double;
+  position: absolute;
+  height: 25px;
+  width: 275px;
+  color: white;
+}
+
+.bar1{
+  top: 200px;
+  left: 625px;
+  z-index: 10;
+}
+
+.bar2{
+  top: 400px;
+  left: 625px;
+  z-index: 10;
+}
+
+.bar3{
+  top: 300px;
+  left: 625px;
+  z-index: 10;
+}
+
+p1{
+  color: aliceblue;
+  top: 205px;
+  left: 525px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+p2{
+  color: aliceblue;
+  top: 402.5px;
+  left: 515px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+
+p3{
+  color: aliceblue;
+  top: 302.5px;
+  left: 515px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+h2{
+  color: aliceblue;
+  top: 75px;
+  left: 695px;
+  white-space: nowrap;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
